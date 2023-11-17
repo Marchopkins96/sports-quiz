@@ -68,3 +68,63 @@ h1, h2, h3 {
     padding-left: 2rem;
 }
 
+/* Styling for start game button area */
+
+#startgame-area {
+    font-size: 1.2rem;
+    display: none;
+}
+
+/* Styling for quiz area */
+
+#game-area {
+    display: none;
+}
+
+#quiz-area {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quiz-area li {
+    padding: 0.5rem;
+    margin: 0.3rem;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+#question-counter {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#score-area {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.correct {
+    color: rgb(7, 136, 7);
+}
+
+.wrong {
+    color: rgb(246, 0, 0);
+}
+
+#correct-counter {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+#wrong-counter {
+    margin-left: 2rem;
+}
+
