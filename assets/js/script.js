@@ -2,10 +2,11 @@
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
     
-    document.getElementById("level-area").style.display = "initial";
+    document.getElementById("levelchoice-area").style.display = "initial";
     document.getElementById("username-area").style.display = "none";
     let user = window.localStorage.getItem("username");
-    document.getElementById("level-area").innerText = `Welcome to the quiz ${user}`;
+    document.getElementById("levelchoice-heading").innerText = `Welcome to the quiz ${user}`;
+
 } else if (!window.localStorage.getItem("username")) {
 
     const submit = document.getElementById("submit");
@@ -40,7 +41,7 @@ function validate(e) {
     }
     
     let user = window.localStorage.getItem("username");
-    document.getElementById("levelchoice-area").innerText = `Welcome to the quiz ${user}!`;
+    document.getElementById("levelchoice-heading").innerText = `Welcome to the quiz ${user}!`;
 }
 
 let questionArea = document.getElementById('question-area');

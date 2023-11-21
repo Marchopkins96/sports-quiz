@@ -40,7 +40,7 @@ const allQuestionsA = [
         question: 'Which footballer is the current all time Premier Leauge top goal scorer?',
         answers: ['Wayne Rooney', 'Harry Kane', 'Alan Shearer', 'Sergio Aguero', 2],
     },
-]
+];
 const allQuestionsB = [
     {
         question: 'In darts, what is the highest score of a single dart?',
@@ -82,4 +82,4 @@ const allQuestionsB = [
         question: 'Which nation call their rugby team the Springboks?',
         answers: ['Australia', 'South Africa', 'Fiji', 'Samoa', 1],
     },
-]
+];
