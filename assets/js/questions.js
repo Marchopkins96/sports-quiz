@@ -1,5 +1,5 @@
 // An array that holds all the questions and possible answers, as well as indicating the correct answer.
-const allQuestions = [
+const allQuestionsA = [
     {
         question: 'Who is the current all-time NBA leading points scorer?',
         answers: ['Michael Jordan', 'LeBron James', 'Kobe Bryant', 'Karl Malone', 1],
@@ -40,6 +40,8 @@ const allQuestions = [
         question: 'Which footballer is the current all time Premier Leauge top goal scorer?',
         answers: ['Wayne Rooney', 'Harry Kane', 'Alan Shearer', 'Sergio Aguero', 2],
     },
+]
+const allQuestionsB = [
     {
         question: 'In darts, what is the highest score of a single dart?',
         answers: ['40', '60', '100', '80', 1],
