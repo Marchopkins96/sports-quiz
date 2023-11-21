@@ -78,5 +78,29 @@ function questionChoice(levelChoice, curr) {
 
 }
 
+/**
+ * This function loads the current question with answers in the game area
+ * curr - number variable of the current question
+ */
+function loadQuestion(curr) {
+    let question = allQuestions[curr].question;
 
+    questionArea.innerHTML = '';
+    questionArea.innerHTML = question;
+
+    let answers = allQuestions[curr].answers;
+
+    answerArea.innerHTML = '';
+
+    for (let i = 0; i < answers.length - 1 ; i += 1) {
+        let createList = document.createElement('li');
+        let text = document.createTextNode(answers[i]);
+
+        createList.appendChild(text);
+        createList.addEventListener("click", checkAnswer(i, answers));
+
+        answerArea.appendChild(createList);
+    }
+
+}
 
