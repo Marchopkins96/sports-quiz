@@ -33,12 +33,19 @@ function validate(e) {
         usernameError.innerText = "Please enter a username to proceed!";
     } else if (usernameField.value) {
         window.localStorage.setItem("username", usernameField.value);
-        document.getElementById("startgame-area").style.display = "initial";
+        document.getElementById("username-area").style.display = "initial";
         document.getElementById("username-area").style.display = "none";
         window.localStorage.setItem("username", usernameField.value);
+        let user = window.localStorage.getItem("username");
+        document.getElementById()
     }
-
-    let user = window.localStorage.getItem("username");
-    document.getElementById("startgame-area").innerText = `Are you ready to play ${user}?`;
-
+    
 }
+
+let questionArea = document.getElementById('question-area');
+let answersArea = document.getElementById('answers-list');
+let allQuestions;
+let current = 0;
+let score = 0;
+
+

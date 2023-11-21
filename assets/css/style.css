@@ -49,7 +49,7 @@ h1, h2, h3 {
 }
 
 #usernameError {
-    display: none;
+    display: ;
     padding: 0.3rem;
     font-size: 1.2rem;
     font-weight: 400;
@@ -68,17 +68,10 @@ h1, h2, h3 {
     padding-left: 2rem;
 }
 
-/* Styling for start game button area */
-
-#startgame-area {
-    font-size: 1.2rem;
-    display: none;
-}
-
 /* Styling for quiz area */
 
 #game-area {
-    display: none;
+    display: ;
 }
 
 #quiz-area {
