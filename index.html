@@ -22,7 +22,6 @@
             <span role="alert" id="usernameError" aria-hidden="true"></span>
             <button type="submit" id="submit" class="btn">Submit</button>
         </form>
-        
         <h3>Rules:</h3>
         <ul id="instructions">
             <li>Enter a username and click 'Submit'</li>
@@ -30,6 +29,15 @@
             <li>At the end your final score will display and you can choose to play again.</li>
         </ul>
         <h3>Enjoy the quiz!!</h3>
+    </section>
+    <!-- Section to choose choice of questions -->
+    <section id="level-area" class="container">
+        <h3 id="Level-heading">0</h3>
+        <h3>Choose your set of questions:</h3>
+        <ul id="question-levels">
+            <li class="level" onClick='questionChoice(this,0)'>Question set A</li>
+            <li class="level" onClick='questionChoice(this,0)'>Question set B</li>
+        </ul>
     </section>
     <!-- Section to display quiz questions and score tracking -->
     <section class="container" id="game-area">

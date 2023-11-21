@@ -79,5 +79,5 @@ const allQuestions = [
     {
         question: 'Which nation call their rugby team the Springboks?',
         answers: ['Australia', 'South Africa', 'Fiji', 'Samoa', 1],
-    }
+    },
 ]
