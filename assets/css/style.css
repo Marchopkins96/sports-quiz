@@ -156,3 +156,32 @@ footer a {
     font-size: 2rem;
 }
 
+/* Responsiveness of game on different screen sizes */
+
+@media screen and (min-width: 1000px) {
+    #levelchoice-area li:hover{
+        background-color: beige;
+        cursor: pointer;
+    }
+
+    #quiz-area li:hover {
+        background-color: beige;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: beige;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+
+    #username-area input {
+        width: 80%;
+    }
+}
+

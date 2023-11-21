@@ -1,7 +1,7 @@
 // If a user is loading the game for the first time, they will need to input a username,
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
-    
+
     document.getElementById("levelchoice-area").style.display = "initial";
     document.getElementById("username-area").style.display = "none";
     let user = window.localStorage.getItem("username");
@@ -39,7 +39,7 @@ function validate(e) {
         document.getElementById("username-area").style.display = "none";
         window.localStorage.setItem("username", usernameField.value);
     }
-    
+
     let user = window.localStorage.getItem("username");
     document.getElementById("levelchoice-heading").innerText = `Welcome to the quiz ${user}!`;
 }
@@ -57,7 +57,7 @@ let score = 0;
  * curr - the number of the current question
  * allQuestions - array of questions used 
  */
-function questionChoice(levelChoice,curr) {
+function questionChoice(levelChoice, curr) {
     let userChoice = levelChoice.textContent;
     if (userChoice === 'A') {
         allQuestions = allQuestionsA;
@@ -77,5 +77,6 @@ function questionChoice(levelChoice,curr) {
     return allQuestions;
 
 }
+
 
 
