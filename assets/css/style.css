@@ -128,3 +128,22 @@ ul {
     margin-left: 2rem;
 }
 
+/* Styling for footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+    width: 100%;
+    background-color: #ff3e41;
+}
+
+footer a {
+    color: white;
+    padding: 0.5rem;
+    margin: 0 25px 0 25px;
+    font-size: 2rem;
+}
+
