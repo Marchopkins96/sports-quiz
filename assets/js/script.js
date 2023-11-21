@@ -1,10 +1,11 @@
 // If a user is loading the game for the first time, they will need to input a username,
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
-    document.getElementById("username-area").style.display = "initial";
+    
+    document.getElementById("level-area").style.display = "initial";
     document.getElementById("username-area").style.display = "none";
     let user = window.localStorage.getItem("username");
-    document.getElementById("username-area").innerText = `Welcome to the quiz ${user}`;
+    document.getElementById("level-area").innerText = `Welcome to the quiz ${user}`;
 } else if (!window.localStorage.getItem("username")) {
 
     const submit = document.getElementById("submit");
@@ -33,14 +34,13 @@ function validate(e) {
         usernameError.innerText = "Please enter a username to proceed!";
     } else if (usernameField.value) {
         window.localStorage.setItem("username", usernameField.value);
-        const usernameInput = document.getElementById("usernameInput");
-        usernameError.classList.add("visible");
-        usernameError.classList.add("invalid");
-        usernameError.setAttribute("aria-hidden", false);
-        usernameError.setAttribute("aria-invalid", true);
-        usernameInput.innerText = 
+        document.getElementById("level-area").style.display = "initial";
+        document.getElementById("username-area").style.display = "none";
+        window.localStorage.setItem("username", usernameField.value);
     }
     
+    let user = window.localStorage.getItem("username");
+    document.getElementById("level-area").innerText = `Welcome to the quiz ${user}!`;
 }
 
 let questionArea = document.getElementById('question-area');
