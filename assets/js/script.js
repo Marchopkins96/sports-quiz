@@ -34,13 +34,13 @@ function validate(e) {
         usernameError.innerText = "Please enter a username to proceed!";
     } else if (usernameField.value) {
         window.localStorage.setItem("username", usernameField.value);
-        document.getElementById("level-area").style.display = "initial";
+        document.getElementById("levelchoice-area").style.display = "initial";
         document.getElementById("username-area").style.display = "none";
         window.localStorage.setItem("username", usernameField.value);
     }
     
     let user = window.localStorage.getItem("username");
-    document.getElementById("level-area").innerText = `Welcome to the quiz ${user}!`;
+    document.getElementById("levelchoice-area").innerText = `Welcome to the quiz ${user}!`;
 }
 
 let questionArea = document.getElementById('question-area');
@@ -48,5 +48,33 @@ let answersArea = document.getElementById('answers-list');
 let allQuestions;
 let current = 0;
 let score = 0;
+
+/**
+ * This function loads the users choice of questions.
+ * 
+ * levelChoice - indicates the set of questions the user picks
+ * curr - the number of the current question
+ * allQuestions - array of questions used 
+ */
+function questionChoice(levelChoice,curr) {
+    let userChoice = levelChoice.textContent;
+    if (userChoice === 'A') {
+        allQuestions = allQuestionsA;
+    } else if (userChoice === 'B') {
+        allQuestions = allQuestionsB;
+    }
+
+    // start quiz
+    loadQuestion(curr);
+
+    document.getElementById("total-questions").textContent = allQuestions.length;
+    document.getElementById("level").textContent = userChoice;
+    document.getElementById("game-area").style.display = "initial";
+    document.getElementById("levelchoice-area").style.display = "none";
+    localStorage.setItem("userLevel", userChoice);
+
+    return allQuestions;
+
+}
 
 
