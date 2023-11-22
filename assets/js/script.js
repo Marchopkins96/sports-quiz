@@ -137,3 +137,21 @@ function checkAnswer(i, arr) {
         }
     };
 }
+
+/**
+ * This function increments correct scores.
+ * code used and adapted from Love Maths project
+ */
+function incrementScore() {
+    let oldscore = parseInt(document.getElementById("correct-counter").innerText);
+    document.getElementById("correct-counter").innerText = ++oldscore;
+}
+
+/**
+ * This function increments wrong answers.
+ * code used and adapted from Love Maths project
+ */
+function incrementWrongAnswer() {
+    let oldscore = parseInt(document.getElementById("wrong-counter").innerText);
+    document.getElementById("wrong-counter").innerText = ++oldscore;
+}
