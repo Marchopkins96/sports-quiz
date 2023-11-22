@@ -45,7 +45,7 @@ function validate(e) {
 }
 
 let questionArea = document.getElementById('question-area');
-let answersArea = document.getElementById('answers-list');
+let answerArea = document.getElementById('answers-list');
 let allQuestions;
 let current = 0;
 let score = 0;
@@ -92,7 +92,7 @@ function loadQuestion(curr) {
 
     answerArea.innerHTML = '';
 
-    for (let i = 0; i < answers.length - 1 ; i += 1) {
+    for (let i = 0; i < answers.length - 1; i += 1) {
         let createList = document.createElement('li');
         let text = document.createTextNode(answers[i]);
 
@@ -104,3 +104,36 @@ function loadQuestion(curr) {
 
 }
 
+/**
+ * This function will run when a user clicks on an answer.
+ * it checks if the answer clicked is the correct one. Then it checks
+ * if that was the last question in the array, if not then the 
+ * next question will load. If it was then the user will be let know 
+ * the game is over.
+ * i - index of the answer clicked by the user
+ * arr - array of possible answers for the current question
+ */
+function checkAnswer(i, arr) {
+
+    return function () {
+        let givenAnswer = i;
+        let correctAnswer = arr[arr.length - 1];
+
+        if (givenAnswer === correctAnswer) {
+            incrementScore();
+        } else {
+            incrementWrongAnswer();
+        }
+
+        if (current < allQuestions.length - 1) {
+            current += 1;
+            document.getElementById("current-question").innerText = current + 1;
+            loadQuestion(current);
+        } else {
+            questionArea.innerHTML = 'Fininshed! Final score page loading ..';
+            answerArea.innerHTML = '';
+            score = document.getElementById("correct-counter").innerText;
+            localStorage.setItem("mostRecentScore", score);
+        }
+    };
+}
