@@ -137,6 +137,25 @@ ul {
     margin-left: 2rem;
 }
 
+/* Styling for end of game page */
+.btn {
+    padding: 0.5rem;
+    margin: 0.3rem;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#play-again-btn {
+    margin: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 1.2rem;
+}
+
 /* Styling for footer section */
 
 footer {

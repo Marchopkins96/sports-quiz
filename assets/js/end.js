@@ -6,8 +6,8 @@ let userLevel = localStorage.getItem("userLevel");
 let user = window.localStorage.getItem("username");
 
 //personalized message to appear for the user
-finalScoreUser.innerText = `${user} Your final score was:`;
-finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level`;
+finalScoreUser.innerText = `${user} Your final score was: `;
+finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level `;
 
 const playAgainSameUser = document.getElementById("play-again-same-user");
 playAgainSameUser.innerHTML = `Play again as ${user}`;
