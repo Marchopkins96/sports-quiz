@@ -9,6 +9,9 @@ let user = window.localStorage.getItem("username");
 finalScoreUser.innerText = `${user} Your final score was:` ;
 finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level` ;
 
+const playAgainSameUser = document.getElementById("play-again-same-user");
+playAgainSameUser.innerHTML = `Play again as ${user}` ;
+
 const playagain = document.getElementById("play-again-btn");
 playagain.addEventListener('click', returntostart);
 
