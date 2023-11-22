@@ -16,6 +16,8 @@ playagain.addEventListener('click', returntostart);
  * This function allows a user to start the quiz again
  */
 function returntostart(e) {
+    e.preventDefault();
+    localStorage.clear();
     load(startOver);
 }
 
@@ -34,3 +36,4 @@ function load(myURL) {
 function startOver() {
     windown.location.assign('index.html');
 }
+
