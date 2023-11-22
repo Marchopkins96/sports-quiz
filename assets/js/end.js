@@ -6,11 +6,11 @@ let userLevel = localStorage.getItem("userLevel");
 let user = window.localStorage.getItem("username");
 
 //personalized message to appear for the user
-finalScoreUser.innerText = `${user} Your final score was:` ;
-finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level` ;
+finalScoreUser.innerText = `${user} Your final score was:`;
+finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level`;
 
 const playAgainSameUser = document.getElementById("play-again-same-user");
-playAgainSameUser.innerHTML = `Play again as ${user}` ;
+playAgainSameUser.innerHTML = `Play again as ${user}`;
 
 const playagain = document.getElementById("play-again-btn");
 playagain.addEventListener('click', returntostart);
@@ -28,7 +28,6 @@ function returntostart(e) {
  * This function delays the loading of myURL
  * URL is loaded with chosen time delay
  */
-
 function load(myURL) {
     setTimeout(myURL, 0);
 }

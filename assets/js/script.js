@@ -134,6 +134,7 @@ function checkAnswer(i, arr) {
             answerArea.innerHTML = '';
             score = document.getElementById("correct-counter").innerText;
             localStorage.setItem("mostRecentScore", score);
+            load(gameOver);
         }
     };
 }
@@ -160,6 +161,7 @@ function incrementWrongAnswer() {
  * This fuunction delays the loading of myURL
  * URL is loaded with chosen time delay
  */
+
 function load(myURL) {
     setTimeout(myURL, 2000);
 }
@@ -167,6 +169,7 @@ function load(myURL) {
 /**
  * This function loads the last page when the game is over
  */
+
 function gameOver() {
     window.location.assign('end_quiz.html');
 }
