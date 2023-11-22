@@ -36,6 +36,6 @@ function load(myURL) {
  * This function loads the last page when the game is over
  */
 function startOver() {
-    windown.location.assign('index.html');
+    window.location.assign('index.html');
 }
 
