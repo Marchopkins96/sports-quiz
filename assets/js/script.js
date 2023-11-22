@@ -155,3 +155,18 @@ function incrementWrongAnswer() {
     let oldscore = parseInt(document.getElementById("wrong-counter").innerText);
     document.getElementById("wrong-counter").innerText = ++oldscore;
 }
+
+/**
+ * This fuunction delays the loading of myURL
+ * URL is loaded with chosen time delay
+ */
+function load(myURL) {
+    setTimeout(myURL, 2000);
+}
+
+/**
+ * This function loads the last page when the game is over
+ */
+function gameOver() {
+    window.location.assign('end_quiz.html');
+}
