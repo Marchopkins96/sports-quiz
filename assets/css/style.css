@@ -179,17 +179,17 @@ footer a {
 
 @media screen and (min-width: 1000px) {
     #levelchoice-area li:hover{
-        background-color: beige;
+        background-color: #de7666cb;
         cursor: pointer;
     }
 
     #quiz-area li:hover {
-        background-color: beige;
+        background-color: #de7666cb;
         cursor: pointer;
     }
 
     .btn:hover {
-        background-color: beige;
+        background-color: #de7666cb;
         cursor: pointer;
     }
 }
