@@ -90,20 +90,6 @@ h1, h2, h3 {
     display: none;
 }
 
-.cancel-game {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cancel-game i {
-    color: black;
-}
-
-.cancel-game a {
-    text-decoration: none;
-    color: black;
-}
-
 #quiz-area {
     font-size: 1.2rem;
 }

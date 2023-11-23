@@ -50,6 +50,7 @@ let allQuestions;
 let current = 0;
 let score = 0;
 
+
 /**
  * This function loads the users choice of questions.
  * 
