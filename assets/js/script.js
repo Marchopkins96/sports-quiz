@@ -6,6 +6,7 @@ const cancelGame = document.getElementById("cancel-btn");
 howToPlayBtn.addEventListener('click', displayHowToPlay);
 closeBtn.addEventListener('click', hideHowToPlay);
 cancelGame.addEventListener('click', goHome);
+
 // If a user is loading the game for the first time, they will need to input a username,
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
