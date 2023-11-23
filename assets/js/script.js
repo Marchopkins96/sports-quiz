@@ -1,9 +1,11 @@
 const howToPlayBtn = document.getElementById('howToPlayBtn');
 const howToPlay = document.getElementById('howToPlay');
 const closeBtn = document.getElementsByClassName('play-close-btn')[0];
+const cancelGame = document.getElementById("cancel-btn");
 
 howToPlayBtn.addEventListener('click', displayHowToPlay);
 closeBtn.addEventListener('click', hideHowToPlay);
+cancelGame.addEventListener('click', goHome);
 // If a user is loading the game for the first time, they will need to input a username,
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
@@ -195,4 +197,10 @@ function displayHowToPlay() {
  */
 function hideHowToPlay() {
     howToPlay.style.display = "none";
+}
+
+function goHome(e) {
+    e.preventDefault();
+    localStorage.clear()
+    location.href = "index.html";
 }
