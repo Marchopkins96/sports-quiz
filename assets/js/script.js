@@ -63,6 +63,8 @@ function questionChoice(levelChoice, curr) {
         allQuestions = allQuestionsA;
     } else if (userChoice === 'B') {
         allQuestions = allQuestionsB;
+    } else if (userChoice === "C") {
+        allQuestions = allQuestionsC;
     }
 
     // start quiz
