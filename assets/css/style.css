@@ -113,6 +113,11 @@ h1, h2, h3 {
     color: black;
 }
 
+/* Hover effect for how to play close button */
+.play-close-button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
 .btn-ctrl {
     padding: 0.5rem;
     margin: 0.3rem;
@@ -123,6 +128,7 @@ h1, h2, h3 {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
+    cursor: pointer;
 }
 
 /* Styling for quiz question choice area */
