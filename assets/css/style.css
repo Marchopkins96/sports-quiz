@@ -268,6 +268,10 @@ footer a {
         background-color: #de7666cb;
         cursor: pointer;
     }
+
+    .btn-ctrl:hover {
+        background-color: #de7666cb;
+    }
 }
 
 @media screen and (max-width: 450px) {
