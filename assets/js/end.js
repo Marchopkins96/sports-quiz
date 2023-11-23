@@ -6,6 +6,15 @@ let userLevel = localStorage.getItem("userLevel");
 let user = window.localStorage.getItem("username");
 
 //personalized message to appear for the user
+
+if (mostRecentScore < 4) {
+    document.getElementById('final-message').innerText = "Keep trying! the scores will improve!";
+} else if (mostRecentScore <= 8) {
+    document.getElementById('final-message').innerText = "Nice work!";
+} else {
+    document.getElementById('final-message').innerText = "wht not try another level?"
+}
+
 finalScoreUser.innerText = `${user} Your final score was: `;
 finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level `;
 
