@@ -14,7 +14,7 @@
         <h1 id="main-heading">Sports Quiz</h1>
         <h2>Test your sports general knowledge!</h2>
     </header>
-    <!-- To input username and display rules -->
+    <!-- To input username -->
     <section id="username-area" class="container">
         <h3>Please enter a username to start the game!</h3>
         <form>
@@ -23,14 +23,25 @@
             <span role="alert" id="usernameError" aria-hidden="true"></span>
             <button type="submit" id="submit" class="btn">Submit</button>
         </form>
-        <h3>Rules:</h3>
-        <ul id="instructions">
-            <li>Enter a username and click 'Submit'</li>
-            <li>Choosde your level, answer 10 questions by clicking your chosen answer</li> 
-            <li>At the end your final score will display and you can choose to play again.</li>
-        </ul>
-        <h3>Enjoy the quiz!!</h3>
+        <div class="controls">
+            <button class="btn-ctrl" id="howToPlayBtn">How to Play</button>
+        </div>
     </section>
+    <!-- How to play -->
+    <div id="howToPlay" class="play-container">
+        <div class="play-content">
+            <h2 class="play-title">How to Play</h2>
+            <ul class="play-list">
+                <li>Choose your set of questions!</li>
+                <li>Select an answer!</li>
+                <li>You can select only one answer!</li>
+                <li>You cannot reselect once you have chosen!</li>
+                <li>Your scores will be logged as you answer!</li>
+                <li>You can replay the game or choose to go back to the home page!</li>
+            </ul>
+            <button class="play-close-btn" aria-label="close button">X</button>
+        </div>
+    </div>
     <!-- Section to choose set of questions -->
     <section id="levelchoice-area" class="container">
         <h3 id="levelchoice-heading">0</h3>

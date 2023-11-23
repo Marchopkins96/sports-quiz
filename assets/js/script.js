@@ -1,3 +1,9 @@
+const howToPlayBtn = document.getElementById('howToPlayBtn');
+const howToPlay = document.getElementById('howToPlay');
+const closeBtn = document.getElementsByClassName('play-close-btn')[0];
+
+howToPlayBtn.addEventListener('click', displayHowToPlay);
+closeBtn.addEventListener('click', hideHowToPlay);
 // If a user is loading the game for the first time, they will need to input a username,
 //The username will be stored in localStorage.
 if (window.localStorage.getItem("username")) {
@@ -175,4 +181,12 @@ function load(myURL) {
 
 function gameOver() {
     window.location.assign('end_quiz.html');
+}
+
+function displayHowToPlay() {
+    howToPlay.style.display = "block";
+}
+
+function hideHowToPlay() {
+    howToPlay.style.display = "none";
 }

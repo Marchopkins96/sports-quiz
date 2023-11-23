@@ -60,12 +60,48 @@ h1, h2, h3 {
     display: block;
 }
 
-#instructions {
-    font-size: 1.2rem;
-    font-weight: 500;
-    list-style-type: disc;
-    text-align: left;
-    padding-left: 2rem;
+/* How to play button container */
+.play-container {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(34, 39, 37, 0.6);
+}
+
+/* How to play card content */
+.play-content {
+    background-color: rgba(250, 249, 249, 0.8);
+    margin-bottom: 10px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 450px;   
+}
+
+.play-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.play-list {
+    list-style: none;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.play-list li {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.play-close-btn {
+    color: black;
 }
 
 /* Styling for quiz question choice area */
