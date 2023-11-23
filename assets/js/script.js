@@ -183,10 +183,16 @@ function gameOver() {
     window.location.assign('end_quiz.html');
 }
 
+/**
+ * This function will display the how to play window to the user
+ */
 function displayHowToPlay() {
     howToPlay.style.display = "block";
 }
 
+/**
+ * This function will hide the how to how to play window once the close button is clicked
+ */
 function hideHowToPlay() {
     howToPlay.style.display = "none";
 }
