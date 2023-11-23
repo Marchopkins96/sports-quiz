@@ -1,6 +1,6 @@
 // Variables stored in local storage are retrieved
-let finalScore = document.getElementById("final-score");
-let finalScoreUser = document.getElementById("final-score-user");
+let finalScore = document.getElementById('final-score');
+let finalScoreUser = document.getElementById('final-score-user');
 let mostRecentScore = localStorage.getItem("mostRecentScore");
 let userLevel = localStorage.getItem("userLevel");
 let user = window.localStorage.getItem("username");
@@ -8,6 +8,16 @@ let user = window.localStorage.getItem("username");
 // Shows the user their final scores and at what level
 finalScoreUser.innerText = `${user} Your final score was: `;
 finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level `;
+
+if (userLevel == 'A') {
+    if (mostRecentScore < 4) {
+        document.getElementById('final-message').innerText = "Keep trying, you will improve!"
+    } else if (mostRecentScore <=8) {
+        document.getElementById('final-message').innerText = "Nice score! fancy trying another level?"
+    } else {
+        document.getElementById('final-message').inerText = "Great performance! you really know your sports!"
+    }
+}
 
 const playAgainSameUser = document.getElementById("play-again-same-user");
 playAgainSameUser.innerHTML = `Play again as ${user}`;
