@@ -75,7 +75,7 @@ h1, h2, h3 {
 
 /* How to play card content */
 .play-content {
-    background-color: rgba(250, 249, 249, 0.8);
+    background-image: linear-gradient(to left, #d64933 0%, #eee5e9 50%, #7c7c7c 100%);
     margin: 15vh auto;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -241,36 +241,36 @@ footer {
     margin-top: auto;
     height: 50px;
     width: 100%;
-    background-image: linear-gradient(to left, #d64933 0%, #eee5e9 50%, #7c7c7c 100%);
+    background-image: linear-gradient(to right, #d64933 0%, #eee5e9 50%, #7c7c7c 100%);
 }
 
 footer a {
     color: black;
     padding: 0.5rem;
     margin: 0 25px 0 25px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* Responsiveness of game on different screen sizes */
 
 @media screen and (min-width: 1000px) {
     #levelchoice-area li:hover{
-        background-color: #de7666cb;
+        background-color: #d64933;
         cursor: pointer;
     }
 
     #quiz-area li:hover {
-        background-color: #de7666cb;
+        background-color: #d64933;
         cursor: pointer;
     }
 
     .btn:hover {
-        background-color: #de7666cb;
+        background-color: #d64933;
         cursor: pointer;
     }
 
     .btn-ctrl:hover {
-        background-color: #de7666cb;
+        background-color: #d64933;
     }
 }
 
