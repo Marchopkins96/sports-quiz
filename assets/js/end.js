@@ -15,7 +15,7 @@ if (userLevel == 'A') {
     } else if (mostRecentScore <=8) {
         document.getElementById('final-message').innerText = "Nice score! fancy trying another level?"
     } else {
-        document.getElementById('final-message').inerText = "Great performance! you really know your sports!"
+        document.getElementById('final-message').innerText = "Great performance! you really know your sports!"
     }
 }
 
