@@ -83,3 +83,45 @@ const allQuestionsB = [
         answers: ['Australia', 'South Africa', 'Fiji', 'Samoa', 1]
     },
 ];
+const allQuestionsC = [
+    {
+        question: 'The Ryder Cup is related to which sport?',
+        answers: ['Cricket', 'Badminton', 'Golf', 'Football', 2],
+    },
+    {
+        question: 'How many players are there on each team in a game of basketball?',
+        answers: ['8', '5', '7', '6', 1]
+    },
+    {
+        question: 'Which basketball team did Michael Jordan spend most of his career playing for?',
+        answers: ['New York Knicks', 'Washington Wizards', 'Chicago Bulls', 'Detroit Pistons', 2]
+    },
+    {
+        question: 'David Beckham played his last professional football game for which club?',
+        answers: ['Paris St Germain', 'Manchester United', 'La Galaxy', 'AC Milan', 0]
+    },
+    {
+        question: 'Which sport takes place in a velodrome?',
+        answers: ['Hockey', 'Cycling', 'Swimming', 'Gymnastics', 1]
+    },
+    {
+        question: 'Which city did the first modern summer olympic games take place in 1896?',
+        answers: ['Rome', 'Paris', 'London', 'Athens', 3]
+    },
+    {
+        question: 'Which country won the first FIFA World Cup in 1930?',
+        answers: ['Uruguay', 'Brazil', 'France', 'Germany', 0]
+    },
+    {
+        question: 'Which MLS franchise team does David Beckham own?',
+        answers: ['LA Galaxy', 'Seattle Sounders', 'Inter Miami', 'Portland Timbers', 2]
+    },
+    {
+        question: 'Which sport is Ronnie Osullivan associated with?',
+        answers: ['Golf', 'Cricket', 'Darts', 'Snooker', 3]
+    },
+    {
+        question: 'What is the term for a score of 1 over par on a golf hole?',
+        answers: ['Eagle', 'Bogey', 'Foul', 'Birdie', 1]
+    },
+];
