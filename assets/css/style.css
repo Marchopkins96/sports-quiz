@@ -114,7 +114,7 @@ h1, h2, h3 {
 }
 
 /* Hover effect for how to play close button */
-.play-close-button:hover {
+.play-close-btn:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
