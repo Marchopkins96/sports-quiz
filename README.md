@@ -1,6 +1,6 @@
 # Sports Quiz
-    (Developed by: Marc Hopkins)
+(Developed by: Marc Hopkins)
 
-    ![Mockup image](docs/iamresponsive.png)
+![Responsive](docs/iamresponsive.png)
 
-    ![Live webpage](https://marchopkins96.github.io/sports-quiz/)
+![Live webpage](https://marchopkins96.github.io/sports-quiz/)
