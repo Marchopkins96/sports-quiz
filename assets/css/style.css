@@ -134,6 +134,10 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
+.btn-ctrl:hover {
+    transform: scale(1.2);
+}
+
 /* Styling for quiz question choice area */
 
 #levelchoice-area {
