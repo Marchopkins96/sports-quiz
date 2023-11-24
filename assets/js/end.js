@@ -11,11 +11,27 @@ finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level `;
 
 if (userLevel == 'A') {
     if (mostRecentScore < 4) {
-        document.getElementById('final-message').innerText = "Keep trying, you will improve!"
+        document.getElementById('final-message').innerText = "Keep trying, you will improve!";
     } else if (mostRecentScore <=8) {
-        document.getElementById('final-message').innerText = "Nice score! fancy trying another level?"
+        document.getElementById('final-message').innerText = "Nice try! fancy trying another level?";
     } else {
-        document.getElementById('final-message').innerText = "Great performance! you really know your sports!"
+        document.getElementById('final-message').innerText = "Great performance! you really know your sports!";
+    } 
+} else if (userLevel == 'B') {
+    if (mostRecentScore < 4) {
+        document.getElementById('final-message').innerText = "Dont give up! you will get better!"
+    } else if (mostRecentScore <= 8) {
+        document.getElementById('final-message').innerText = "Good effort! fancy trying another level?";
+    } else {
+        document.getElementById('final-message').innerText = "Excellent! you are a sports master!";
+    }
+} else if (userLevel == 'C') {
+    if (mostRecentScore < 4) {
+        document.getElementById('final-message').innerText = "Keep your head up!";
+    } else if (mostRecentScore <=8) {
+        document.getElementById('final-message').innerText = "Well done! fancy trying another level?";
+    } else {
+        document.getElementById('final-message').innerText = "Fantastic! you should join a quiz team!";
     }
 }
 
@@ -48,4 +64,3 @@ function load(myURL) {
 function startOver() {
     window.location.assign('index.html');
 }
-
