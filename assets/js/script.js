@@ -3,6 +3,9 @@ const howToPlay = document.getElementById('howToPlay');
 const closeBtn = document.getElementsByClassName('play-close-btn')[0];
 const cancelGame = document.getElementById("cancel-btn");
 
+//these event listeners relate to the How to Play button window which the user clicks on the home page
+// the functionality of this feature were inspired by https://github.com/rpf13/Do-You-Know-It 
+//and code was used and adapted in this quiz game
 howToPlayBtn.addEventListener('click', displayHowToPlay);
 closeBtn.addEventListener('click', hideHowToPlay);
 cancelGame.addEventListener('click', goHome);
@@ -28,6 +31,7 @@ if (window.localStorage.getItem("username")) {
  * It shows an error messsage if not.
  * when a username is provided it is saved and shown throughout the quiz.
  * Code used and adapted from https://www.freecodecamp.org/news/form-validation-with-html5-and-javascript/
+ * Code was also used and adapted from https://github.com/URiem/geography-game in the making of this quiz game.
  * (e) event of a click 
  */
 function validate(e) {
@@ -122,6 +126,7 @@ function loadQuestion(curr) {
  * if that was the last question in the array, if not then the 
  * next question will load. If it was then the user will be let know 
  * the game is over.
+ * code or this function used and adapted from https://github.com/URiem/geography-game 
  * i - index of the answer clicked by the user
  * arr - array of possible answers for the current question
  */
@@ -188,6 +193,7 @@ function gameOver() {
 
 /**
  * This function will display the how to play window to the user
+ * adapted from project https://github.com/rpf13/Do-You-Know-It
  */
 function displayHowToPlay() {
     howToPlay.style.display = "block";
@@ -195,6 +201,7 @@ function displayHowToPlay() {
 
 /**
  * This function will hide the how to how to play window once the close button is clicked
+ * adapted from project https://github.com/rpf13/Do-You-Know-It
  */
 function hideHowToPlay() {
     howToPlay.style.display = "none";

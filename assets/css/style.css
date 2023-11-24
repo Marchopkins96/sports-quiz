@@ -82,7 +82,7 @@ h1, h2, h3 {
     margin: 15vh auto;
     padding: 1rem;
     border-radius: 10px;
-    max-width: 750px;
+    max-width: 550px;
     text-align: center;
     justify-content: center;   
 }
@@ -297,6 +297,14 @@ footer a {
 
     .play-content {
         max-width: 280px;
+    }
+
+    .correct {
+        font-size: large;
+    }
+
+    .wrong {
+        font-size: large;
     }
 
     h2,h3 {

@@ -6,6 +6,7 @@ let userLevel = localStorage.getItem("userLevel");
 let user = window.localStorage.getItem("username");
 
 // Shows the user their final scores and at what level
+// code used and adapted from project https://github.com/URiem/geography-game
 finalScoreUser.innerText = `${user} Your final score was: `;
 finalScore.innerText = `${mostRecentScore} @ ${userLevel} Level `;
 
