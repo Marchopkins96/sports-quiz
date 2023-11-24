@@ -80,11 +80,11 @@ h1, h2, h3 {
 .play-content {
     background-image: linear-gradient(to left, #d64933 0%, #eee5e9 50%, #7c7c7c 100%);
     margin: 15vh auto;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 750px;
     text-align: center;
-    justify-content: center;
-    width: 450px;   
+    justify-content: center;   
 }
 
 .play-title {
@@ -282,12 +282,29 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
+   
     .container {
         width: 90%;
     }
 
     #username-area input {
         width: 80%;
+    }
+
+    .play-container {
+        padding: 0.5rem;
+    }
+
+    .play-content {
+        max-width: 280px;
+    }
+
+    h2,h3 {
+        font-size: 90%;
+    }
+
+    footer a {
+        font-size: 1.5rem;
     }
 }
 
