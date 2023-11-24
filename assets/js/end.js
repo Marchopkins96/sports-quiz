@@ -22,7 +22,7 @@ if (userLevel == 'A') {
     } 
 } else if (userLevel == 'B') {
     if (mostRecentScore < 4) {
-        document.getElementById('final-message').innerText = "Dont give up! you will get better!"
+        document.getElementById('final-message').innerText = "Dont give up! you will get better!";
     } else if (mostRecentScore <= 8) {
         document.getElementById('final-message').innerText = "Good effort! fancy trying another level?";
     } else {

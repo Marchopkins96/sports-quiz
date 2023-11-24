@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@200;300;400;500;600;700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@400;700&display=swap');
 
 /* reset Default settings */
 body {
@@ -141,7 +141,7 @@ h1, h2, h3 {
 /* Styling for quiz question choice area */
 
 #levelchoice-area {
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     display: none;
 }
 

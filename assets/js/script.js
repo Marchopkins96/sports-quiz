@@ -211,6 +211,6 @@ function hideHowToPlay() {
 
 function goHome(e) {
     e.preventDefault();
-    localStorage.clear()
+    localStorage.clear();
     location.href = "index.html";
 }
