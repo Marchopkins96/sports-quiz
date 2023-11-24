@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const howToPlayBtn = document.getElementById('howToPlayBtn');
 const howToPlay = document.getElementById('howToPlay');
 const closeBtn = document.getElementsByClassName('play-close-btn')[0];

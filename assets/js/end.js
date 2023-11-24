@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Variables stored in local storage are retrieved
 let finalScore = document.getElementById('final-score');
 let finalScoreUser = document.getElementById('final-score-user');
