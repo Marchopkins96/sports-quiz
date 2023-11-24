@@ -32,6 +32,9 @@ h1, h2, h3 {
 }
 
 /* Styling the username and rules area */
+#username-area {
+    height: 450px;
+}
 
 #username-area input {
     padding: 0.5rem;

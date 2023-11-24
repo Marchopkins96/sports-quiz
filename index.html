@@ -12,10 +12,15 @@
 <body>
     <header>
         <h1 id="main-heading">Sports Quiz</h1>
-        <h2>Test your sports general knowledge!</h2>
+        <h2>The home of sports general knowledge!</h2>
     </header>
     <!-- To input username -->
     <section id="username-area" class="container">
+        <h3>Welcome to Sports Quiz where your sports knowledge will be tested put to the test!</h3>
+        <h2>Be sure to hit the How to Play button before you start!</h2>
+        <div class="controls">
+            <button class="btn-ctrl" id="howToPlayBtn">How to Play</button>
+        </div>
         <h3>Please enter a username to start the game!</h3>
         <form>
             <label for="username">Username:</label>
@@ -23,10 +28,6 @@
             <span role="alert" id="usernameError" aria-hidden="true"></span>
             <button type="submit" id="submit" class="btn">Submit</button>
         </form>
-        <h3>Be sure to hit the How to Play button before you start!</h3>
-        <div class="controls">
-            <button class="btn-ctrl" id="howToPlayBtn">How to Play</button>
-        </div>
     </section>
     <!-- How to play -->
     <div id="howToPlay" class="play-container">
