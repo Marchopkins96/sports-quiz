@@ -289,3 +289,8 @@ The website has been tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Footer social link | Click link in footer | User is taken to GitHub of developer | Works as expected |
 
+## Bugs & Fixes 
+
+| **Bug** | **Fix** |
+|---------|---------|
+| Cancel Game button didnt return the user to the quiz home page as i had intended it to. It only returned the user as far as the level choice section. | I then remembered that this would have been because localStorage was stored and i needed to delete this with the click of the cancel button. I added localStorage.clear() into the function and this fixed the issue.
