@@ -66,7 +66,7 @@ As a returning user, I want to ...
 
 5. **End of Quiz Section** Displays a users final score at what level they chose to play at. A short message will appear for the user which will differ depending on how they scored. There will also be a play again option.
 
-![End of Quiz](end-quiz.png)
+![End of Quiz](docs/end-quiz.png)
 
 6. **404 Error Page** A simple 404 page is also included (404.html).
 
