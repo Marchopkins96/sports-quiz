@@ -80,18 +80,21 @@ The colour scheme is a mix of dull and warm colours. I wanted the background to 
 
 Nunito font has been used for all headings in the quiz, all other features of the game have Lato font applied to them.
 
-### Features 
+## Features 
 
-#### Home Page Section 
+### Home Page Section 
 
 <details>
 <summary>Screenshot of Home Page section</summary>
 <img src="docs/homepage.png" width="700">
 </details>
 
-- Features a heading and sub-heading of the quiz. Within the contrasting white quiz card area there is a short introduction to the quiz followed by a message encouraging the user to click the 'How to Play' button before submitting a username followed by the 'How to Play' button. Below that users are encouraged to enter a username in the box provided and then click the submit button below. A link to the developers GitHub account is als0 included in the footer.
+- Features a heading and sub-heading of the quiz. 
+- Within the contrasting white quiz card area there is a short introduction to the quiz followed by a message encouraging the user to click the 'How to Play' button before submitting a username.
+- Below that users are instructed to enter a username in the box provided and then click the submit button below. 
+- A link to the developers GitHub account is also included in the footer.
 
-#### Question Level Choice Section 
+### Question Level Choice Section 
 
 <details>
 <summary>Screenshot of the Qustion Level Choice Section</summary>
@@ -99,5 +102,31 @@ Nunito font has been used for all headings in the quiz, all other features of th
 </details>
 
 - Features three clickable levels that a user can choose from: 'A', 'B' or 'C'.
+
+### Quiz Questions Section
+
+<details>
+<summary>Screenshot of Quiz Questions Section</summary>
+<img src="docs/questions.png" width="700">
+</details>
+
+- features the question which is displayed at the top of the quiz card area.
+- Four clickable possible answers are listed below the question.
+- There is a score area at the bottom of the card that keeps track of a users correct and incorrect answers every time an answer is submitted. It also tracks the amount of questions that are in the users chosen level.
+- When users hover over answers the answers the cursor changes to a pointer to indicate which answer they are about to choose.
+- A cancel button is featured at the top of the quiz card and if clicked this will end the users game and take them back to the home page.
+
+### End of Quiz Section
+
+<details>
+<summary>Screenshot of End of Game Section</summary>
+<img src="docs/endquiz.png" width="700">
+</details>
+
+- Features the users final score and at what level was played.
+- A personal message is posted to the user which changes depending on the users score.
+- At the bottom of the quiz card there are two clickable buttons which allow the user to play again with the same username or with a new one.
+
+
 
 
