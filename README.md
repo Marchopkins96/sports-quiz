@@ -172,4 +172,23 @@ In the future I would like to implement a leaderboard section so that users can 
 - <a href="https://www.w3schools.com/">W3 Schools</a>
 - <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
 
+## Testing & Validation 
 
+### HTML Validation 
+
+The W3C Validation service was used to validate all HTML code in this project. All pages passed without any issues.
+
+<details>
+<summary>Home page and quiz area pages</summary>
+<img src="docs/indexhtmlvalidation.png" width="700">
+</details>
+
+<details>
+<summary>End of Quiz Page</summary>
+<img src="docs/endofgamehtmlvalidation.png" width="700">
+</details>
+
+<details>
+<summary>404 Error Page</summary>
+<img src="docs/404pagehtmlvalidation.png" width="700">
+</details>
