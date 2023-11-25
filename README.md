@@ -126,3 +126,24 @@ Nunito font has been used for all headings in the quiz, all other features of th
 - Features the users final score and at what level was played.
 - A personal message is posted to the user which changes depending on the users score.
 - At the bottom of the quiz card there are two clickable buttons which allow the user to play again with the same username or with a new one.
+
+### Header
+
+<details>
+<summary>Screenshot of Header</summary>
+<img src="docs/header.png" width="700">
+</details>
+
+- The header is featured throughout the quiz game.
+- The haader makes it clear as to what the site is.
+  
+### Footer 
+
+<details>
+<summary>Screenshot of the Footer</summary>
+<img src="docs/footer.png" width="700">
+</details>
+
+- The footer is featured on all pages apart from the 404 error page.
+- The footer is blended with the gradient of the background for a clean look.
+
