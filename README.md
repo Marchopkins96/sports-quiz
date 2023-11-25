@@ -70,4 +70,8 @@ As a returning user, I want to ...
 
 6. **404 Error Page** A simple 404 page is also included (404.html).
 
+#### Colour Scheme 
+
+The colour scheme is a mix of dull and warm colours. I wanted the background to be in a linear gradient style as i thought this gave the page an eye catching look. All clickabe buttons are coloured in the warm red in keeping with the colour scheme when hovered over. The main area of the Quiz functions will remain in white and the text be black or grey to maintain a good level of contrast and readability.
+
 
