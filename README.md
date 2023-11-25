@@ -192,3 +192,36 @@ The W3C Validation service was used to validate all HTML code in this project. A
 <summary>404 Error Page</summary>
 <img src="docs/404pagehtmlvalidation.png" width="700">
 </details>
+
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS code in this project. The code passed with no issues.
+
+<details>
+<summary>CSS Validation</summary>
+<img src="docs/cssvalidation.png" width="700">
+</details>
+
+### JavaScript Validation
+
+The linter <a href="https://jshint.com/">JSHint</a> was used to validate all JavaScript code. All passed okay with only minor grammatical errors flagged, which were fixed.
+
+<details>
+<summary>script.js validation part one</summary>
+<img src="docs/jsscriptvalidationone.png" width="700">
+</details>
+
+<details>
+<summary>script.js validation part two</summary>
+<img src="docs/jsscriptvalidationtwo.png" width="700">
+</details>
+
+<details>
+<summary>end.js validation</summary>
+<img src="docs/jsendvalidation.png" width="700">
+</details>
+
+<details>
+<summary>questions.js validation</summary>
+<img src="docs/jsquestionsvalidation.png" width="700">
+</details>
