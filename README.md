@@ -147,3 +147,29 @@ Nunito font has been used for all headings in the quiz, all other features of th
 - The footer is featured on all pages apart from the 404 error page.
 - The footer is blended with the gradient of the background for a clean look.
 
+### Future Additions 
+
+In the future I would like to implement a leaderboard section so that users can save their highscores and try to beat them.
+
+## Technologies Used
+
+### Languages 
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks & Tools
+- Balsamiq
+- Coolers
+- Font Awesome
+- Favicon.ico
+- Git
+- GitHub
+- Google Fonts
+
+### Helpful Websites
+
+- <a href="https://www.w3schools.com/">W3 Schools</a>
+- <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+
+
