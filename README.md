@@ -80,4 +80,24 @@ The colour scheme is a mix of dull and warm colours. I wanted the background to 
 
 Nunito font has been used for all headings in the quiz, all other features of the game have Lato font applied to them.
 
+### Features 
+
+#### Home Page Section 
+
+<details>
+<summary>Screenshot of Home Page section</summary>
+<img src="docs/homepage.png" width="700">
+</details>
+
+- Features a heading and sub-heading of the quiz. Within the contrasting white quiz card area there is a short introduction to the quiz followed by a message encouraging the user to click the 'How to Play' button before submitting a username followed by the 'How to Play' button. Below that users are encouraged to enter a username in the box provided and then click the submit button below. A link to the developers GitHub account is als0 included in the footer.
+
+#### Question Level Choice Section 
+
+<details>
+<summary>Screenshot of the Qustion Level Choice Section</summary>
+<img src="docs/levelchoice.png" width="700">
+</details>
+
+- Features three clickable levels that a user can choose from: 'A', 'B' or 'C'.
+
 
