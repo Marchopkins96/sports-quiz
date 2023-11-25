@@ -79,6 +79,10 @@ const allQuestionsB = [
         answers: ['Serena Williams', 'Stefi Graf', 'Billie Jean King', 'Margaret Court', 3]
     },
     {
+        question: 'Which MLS franchise team does David Beckham own?',
+        answers: ['LA Galaxy', 'Seattle Sounders', 'Inter Miami', 'Portland Timbers', 2]
+    },
+    {
         question: 'Which nation call their rugby team the Springboks?',
         answers: ['Australia', 'South Africa', 'Fiji', 'Samoa', 1]
     },
@@ -113,8 +117,8 @@ const allQuestionsC = [
         answers: ['Uruguay', 'Brazil', 'France', 'Germany', 0]
     },
     {
-        question: 'Which MLS franchise team does David Beckham own?',
-        answers: ['LA Galaxy', 'Seattle Sounders', 'Inter Miami', 'Portland Timbers', 2]
+        question: 'Which female tennis player has won the most grand slam titles?',
+        answers: ['Serena Williams', 'Stefi Graf', 'Billie Jean King', 'Margaret Court', 3]
     },
     {
         question: 'Which sport is Ronnie Osullivan associated with?',
