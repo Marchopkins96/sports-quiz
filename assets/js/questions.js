@@ -75,10 +75,6 @@ const allQuestionsB = [
         answers: ['Lionel Messi', 'Cristiano Ronaldo', 'Miroslav Klose', 'Diego Maradona', 2]
     },
     {
-        question: 'Which female tennis player has won the most grand slam titles?',
-        answers: ['Serena Williams', 'Stefi Graf', 'Billie Jean King', 'Margaret Court', 3]
-    },
-    {
         question: 'Which MLS franchise team does David Beckham own?',
         answers: ['LA Galaxy', 'Seattle Sounders', 'Inter Miami', 'Portland Timbers', 2]
     },

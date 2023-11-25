@@ -225,3 +225,23 @@ The linter <a href="https://jshint.com/">JSHint</a> was used to validate all Jav
 <summary>questions.js validation</summary>
 <img src="docs/jsquestionsvalidation.png" width="700">
 </details>
+
+### Accessibility & Performance 
+
+The Lighthouse feature on Google DevTools was used to assess accessibility and performance. the pages in this site scored highly but there is some room for improvement on performance.
+
+<details>
+<summary>Home Page and Quiz Area</summary>
+<img src="docs/indexhtmllighthouse.png" width="700">
+</details>
+
+<details>
+<summary>End of Quiz Page</summary>
+<img src="docs/endquizlighthouse.png" width="700">
+</details>
+
+#### Outstanding Issues 
+
+There are no outstanding issues to the developers knowledge at this time.
+
+### Browser Compatability
