@@ -293,4 +293,29 @@ The website has been tested on the following browsers:
 
 | **Bug** | **Fix** |
 |---------|---------|
-| Cancel Game button didnt return the user to the quiz home page as i had intended it to. It only returned the user as far as the level choice section. | I then remembered that this would have been because localStorage was stored and i needed to delete this with the click of the cancel button. I added localStorage.clear() into the function and this fixed the issue.
+| Cancel Game button didnt return the user to the quiz home page as i had intended it to. It only returned the user as far as the level choice section. | I remembered that this would have been because localStorage was stored and i needed to delete this with the click of the cancel button. I added localStorage.clear() into the function and this fixed the issue.
+
+
+## Deployment & Development
+
+The website was deployed using GitHub Pages by following these steps:
+
+1. In the GitHub respository navigate to the Settings tab.
+2. Select Pages from the menu on the left-hand side of the page.
+3. For the source select Branch: 'main' and then select: 'save'.
+4. After the webpage refreshes automatically a ribbon at the top will displays the following message: "Your site is live at https://marchopkins96.github.io/sports-quiz/"
+
+The website repository can be forked by the following steps:
+
+1. Go to the GitHub repository.
+2. Click on the Fork button in the upper right hand corner.
+
+The repository can be cloned by the following steps:
+
+1. Got to the GitHub repository.
+2. Locade the Code button above the list of files and click on it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
+6. Type git clone and paste the URL from the clipboard ($ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>)
+7. Press Enter to create your local clone.
