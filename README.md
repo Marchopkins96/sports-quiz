@@ -245,3 +245,47 @@ The Lighthouse feature on Google DevTools was used to assess accessibility and p
 There are no outstanding issues to the developers knowledge at this time.
 
 ### Browser Compatability
+
+The website has been tested on the following browsers:
+
+- Google Chrome
+- Safari
+- Mozilla Firefox
+- Microsoft Edge
+
+### Testing and User Stories 
+
+1. As a first time user, i want to easily navigatew through the quiz.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Page | Click How to Play Button | The rules of the game display | Works as expected |
+| Home Page | Input a username and click submit | The Level Choice page displays | Works as expected |
+|Level Choice | Click on chosen level | The  first quiz questions display | Works as expected |
+| Quiz Area | Click on chosen answer | New questions display after answering | Works as expected |
+| End of Quiz Page | Choose to play again | Home page appears again | Works as expected |
+
+2. As a first time user, i want to be able to track my score throughout the quiz.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz Area | Click quiz answers of your choice | Your score will tally below the list of answers | Works as expected |
+
+3. As a first time user, i want to easily return to the beginning of the quiz and play again.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| End of Quiz Page | Select to play again | Takes the user back to the start of the quiz | Works as expected |
+
+4. As a returning user, i want to try different levels of questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Level Choice | Choose a level | Play through chosen level | Works as expected |
+
+5. As a returning user, i potentially want find out about the developer who created the quiz.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer social link | Click link in footer | User is taken to GitHub of developer | Works as expected |
+
