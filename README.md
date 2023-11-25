@@ -319,3 +319,19 @@ The repository can be cloned by the following steps:
 5. Change the current working directory to the one where you want the cloned directory.
 6. Type git clone and paste the URL from the clipboard ($ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>)
 7. Press Enter to create your local clone.
+
+## Credits 
+
+### Code 
+
+- Code from Ulrike Riemenschneider's project https://uriem.github.io/geography-game/ was used and adapted in the making of this project. I liked much of the functionality in that project so chose to style mine simililarily. 
+- Code from https://rpf13.github.io/Do-You-Know-It/ project gave me inspiration for implementing a 'How to Play' button on the home page. I also took some inspiration from this project to create a linear gradient background.
+- The score tracking from the Love Maths project was used and adapted in this project.
+
+### Acknowledgements 
+
+I would like to thank:
+
+- My mentor Mitko Bachvarov for his Feedback, advice and guidance throughout this project.
+- Members of the Slack community who answered my questions & queries.
+- My partner, Harriet, for her feedback and encouragement throughout.
