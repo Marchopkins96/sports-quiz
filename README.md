@@ -126,7 +126,3 @@ Nunito font has been used for all headings in the quiz, all other features of th
 - Features the users final score and at what level was played.
 - A personal message is posted to the user which changes depending on the users score.
 - At the bottom of the quiz card there are two clickable buttons which allow the user to play again with the same username or with a new one.
-
-
-
-
