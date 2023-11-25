@@ -54,4 +54,20 @@ As a returning user, I want to ...
 
 2. **How To Play** Once the how to play button has been clicked it will appear as a pop up card on the screen. It will feature all the instructions for the quiz game. Once a user is finished with the page an exit button will take them back to the home page.
 
-![How-to-Play](docs/how-to-play.png)
+![How to Play](docs/how-to-play.png)
+
+3. **Question Level Choice** The user has three sets of multiple choice questions to choose from.
+
+![Level](docs/level-choice.png)
+
+4. **Quiz Question Area** The user has 10 questions to answer once in this part of the site. The scores will be tracked at the bottom of the quiz card.
+
+![Questions](docs/question-area.png)
+
+5. **End of Quiz Section** Displays a users final score at what level they chose to play at. A short message will appear for the user which will differ depending on how they scored. There will also be a play again option.
+
+![End of Quiz](end-quiz.png)
+
+6. **404 Error Page** A simple 404 page is also included (404.html).
+
+
