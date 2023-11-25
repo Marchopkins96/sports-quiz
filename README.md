@@ -42,4 +42,16 @@ As a first time user, I want to ...
 As a returning user, I want to ...
 1. Try different levels.
 2. Beat my previous scores.
-3. potentially check out the developer who made the quiz. 
+3. potentially check out the developer who made the quiz.
+
+### Structure & Design 
+
+#### Wireframes
+
+1. **Home Section** displays a short introduction to the quiz and the users are encouraged to click the 'How to Play' button. Further down the page there is an option to enter and submit a username.
+
+![Home](docs/quiz-home.png)
+
+2. **How To Play** Once the how to play button has been clicked it will appear as a pop up card on the screen. It will feature all the instructions for the quiz game. Once a user is finished with the page an exit button will take them back to the home page.
+
+![How-to-Play](docs/how-to-play.png)
