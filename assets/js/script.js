@@ -1,5 +1,6 @@
 /*jshint esversion: 6 */
 
+// adapted from project https://github.com/rpf13/Do-You-Know-It
 const howToPlayBtn = document.getElementById('howToPlayBtn');
 const howToPlay = document.getElementById('howToPlay');
 const closeBtn = document.getElementsByClassName('play-close-btn')[0];
