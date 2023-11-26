@@ -171,6 +171,7 @@ In the future I would like to implement a leaderboard section so that users can 
 
 - <a href="https://www.w3schools.com/">W3 Schools</a>
 - <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+- <a href="https://www.youtube.com/@JamesQQuick/">James Q Quick Youtube Channel</a>
 
 ## Testing & Validation 
 
