@@ -26,7 +26,7 @@ Sports Quiz is a multiple choice online quiz testing the sports knowledge of the
 - Users who are looking to put their sports knowledge to the test.
   
 #### User Expectations
-- Site easy to naviagte around.
+- Site easy to navigate around.
 - Feedback as a user progresses through the quiz.
 - Visually appealing design.
 
@@ -135,7 +135,7 @@ Nunito font has been used for all headings in the quiz, all other features of th
 </details>
 
 - The header is featured throughout the quiz game.
-- The haader makes it clear as to what the site is.
+- The header makes it clear as to what the site is.
   
 ### Footer 
 
@@ -228,7 +228,7 @@ The linter <a href="https://jshint.com/">JSHint</a> was used to validate all Jav
 
 ### Accessibility & Performance 
 
-The Lighthouse feature on Google DevTools was used to assess accessibility and performance. the pages in this site scored highly but there is some room for improvement on performance.
+The Lighthouse feature on Google DevTools was used to assess accessibility and performance. The pages in this site scored highly but there is some room for improvement on performance.
 
 <details>
 <summary>Home Page and Quiz Area</summary>
@@ -255,7 +255,7 @@ The website has been tested on the following browsers:
 
 ### Testing and User Stories 
 
-1. As a first time user, i want to easily navigatew through the quiz.
+1. As a first time user, i want to easily navigate through the quiz.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
