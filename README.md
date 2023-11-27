@@ -327,6 +327,7 @@ The repository can be cloned by the following steps:
 
 - Code from Ulrike Riemenschneider's project https://uriem.github.io/geography-game/ was used and adapted in the making of this project. I liked much of the functionality in that project so chose to style mine simililarily. 
 - Code from https://rpf13.github.io/Do-You-Know-It/ project gave me inspiration for implementing a 'How to Play' button on the home page. I also took some inspiration from this project to create a linear gradient background.
+- https://www.freecodecamp.org/news/form-validation-with-html5-and-javascript/ This page from FreeCodeCamp was helpful in getting a better understanding about form validation.
 - The score tracking from the Love Maths project was used and adapted in this project.
 
 ### Acknowledgements 
